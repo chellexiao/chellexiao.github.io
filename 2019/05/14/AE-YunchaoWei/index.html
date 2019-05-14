@@ -96,16 +96,21 @@
 
 
 
-  <meta name="description" content="赐我理由再披甲上阵">
-<meta property="og:type" content="website">
-<meta property="og:title" content="BLOG">
-<meta property="og:url" content="http://yoursite.com/index.html">
+  <meta name="description" content="CAM类方法可以使弱监督分类网络具备定位物体的功能，但定位的区域通常都是物体上较为有区分力的部分，而不是物体的整体。为了解决这个问题，对抗擦除的方法被提出。使用对抗擦除方法可以让网络更加聚焦在具有区分力的部分之外的区域。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Adversarial Erasing">
+<meta property="og:url" content="http://yoursite.com/2019/05/14/AE-YunchaoWei/index.html">
 <meta property="og:site_name" content="BLOG">
-<meta property="og:description" content="赐我理由再披甲上阵">
+<meta property="og:description" content="CAM类方法可以使弱监督分类网络具备定位物体的功能，但定位的区域通常都是物体上较为有区分力的部分，而不是物体的整体。为了解决这个问题，对抗擦除的方法被提出。使用对抗擦除方法可以让网络更加聚焦在具有区分力的部分之外的区域。">
 <meta property="og:locale" content="zh-CN">
+<meta property="og:image" content="http://yoursite.com/2019/05/14/AE-YunchaoWei/ObjectRegionMining-AE.png">
+<meta property="og:image" content="http://yoursite.com/2019/05/14/AE-YunchaoWei/ACoL.png">
+<meta property="og:image" content="http://yoursite.com/2019/05/14/AE-YunchaoWei/ACoL-results.png">
+<meta property="og:updated_time" content="2019-05-14T11:32:20.720Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="BLOG">
-<meta name="twitter:description" content="赐我理由再披甲上阵">
+<meta name="twitter:title" content="Adversarial Erasing">
+<meta name="twitter:description" content="CAM类方法可以使弱监督分类网络具备定位物体的功能，但定位的区域通常都是物体上较为有区分力的部分，而不是物体的整体。为了解决这个问题，对抗擦除的方法被提出。使用对抗擦除方法可以让网络更加聚焦在具有区分力的部分之外的区域。">
+<meta name="twitter:image" content="http://yoursite.com/2019/05/14/AE-YunchaoWei/ObjectRegionMining-AE.png">
 
 
 
@@ -113,7 +118,7 @@
 
   
   
-  <link rel="canonical" href="http://yoursite.com/">
+  <link rel="canonical" href="http://yoursite.com/2019/05/14/AE-YunchaoWei/">
 
 
 
@@ -123,7 +128,7 @@
   };
 </script>
 
-  <title>BLOG</title>
+  <title>Adversarial Erasing | BLOG</title>
   
 
 
@@ -171,8 +176,7 @@
     
   
 
-  <div class="container sidebar-position-left 
-  page-home">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -214,7 +218,7 @@
         
         
           
-          <li class="menu-item menu-item-home menu-item-active">
+          <li class="menu-item menu-item-home">
 
     
     
@@ -293,9 +297,9 @@
           
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
 
@@ -327,10 +331,8 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/2019/05/14/AE-YunchaoWei/" class="post-title-link" itemprop="url">Adversarial Erasing</a>
+          <h1 class="post-title" itemprop="name headline">Adversarial Erasing
+
               
             
           </h1>
@@ -394,6 +396,13 @@
           
 
           
+            <span class="post-meta-divider">|</span>
+            <span class="post-meta-item-icon">
+            <i class="fa fa-eye"></i>
+             阅读次数： 
+            <span class="busuanzi-value" id="busuanzi_value_page_pv"></span>
+            </span>
+          
 
           
             <div class="post-symbolscount">
@@ -430,422 +439,106 @@
       
 
       
-        
-          <blockquote>
+        <blockquote>
 <p>CAM类方法可以使弱监督分类网络具备定位物体的功能，但定位的区域通常都是物体上较为有区分力的部分，而不是物体的整体。为了解决这个问题，对抗擦除的方法被提出。使用对抗擦除方法可以让网络更加聚焦在具有区分力的部分之外的区域。</p>
 </blockquote>
-          <!--noindex-->
-          
-            <div class="post-button text-center">
-              <a class="btn" href="/2019/05/14/AE-YunchaoWei/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          
-          <!--/noindex-->
-        
-      
-    </div>
+<a id="more"></a>
 
-    
-
-    
-    
-    
-
-    
-
-    
-      
-    
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/05/12/test-site/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="XIAO">
-      <meta itemprop="description" content="赐我理由再披甲上阵">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="BLOG">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/2019/05/12/test-site/" class="post-title-link" itemprop="url">test_site</a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-
-              
-                
-              
-
-              <time title="创建时间：2019-05-12 13:06:22" itemprop="dateCreated datePublished" datetime="2019-05-12T13:06:22+08:00">2019-05-12</time>
-            
-
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2019-05-14 19:21:04" itemprop="dateModified" datetime="2019-05-14T19:21:04+08:00">2019-05-14</time>
-              
-            
-          </span>
-
-          
-            <span class="post-category">
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Notes/" itemprop="url" rel="index"><span itemprop="name">Notes</span></a></span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-            
-          
-
-          
-          
-
-          
-
-          
-            <div class="post-symbolscount">
-              
-
-              
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-file-word-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">本文字数：</span>
-                
-                <span title="本文字数">591</span>
-              
-
-              
-
-              
-            </div>
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <h1 id="部署Hexo到github-io"><a href="#部署Hexo到github-io" class="headerlink" title="部署Hexo到github.io"></a>部署Hexo到github.io</h1><h3 id="Download"><a href="#Download" class="headerlink" title="Download"></a>Download</h3><ul>
-<li>Packages<ul>
-<li>nodejs</li>
-<li>npm</li>
-<li>hexo-cli</li>
+<p>有关对抗擦除方法的几篇论文：</p>
+<h4 id="Object-Region-Mining-with-Adversarial-Erasing-A-Simple-Classification-to-Semantic-Segmentation-Approach-CVPR2017-Oral"><a href="#Object-Region-Mining-with-Adversarial-Erasing-A-Simple-Classification-to-Semantic-Segmentation-Approach-CVPR2017-Oral" class="headerlink" title="Object Region Mining with Adversarial Erasing: A Simple Classification to Semantic Segmentation Approach. CVPR2017 Oral"></a>Object Region Mining with Adversarial Erasing: A Simple Classification to Semantic Segmentation Approach. <em>CVPR2017 Oral</em></h4><blockquote>
+<p>Yunchao Wei, Jiashi Feng, Xiaodan Liang, Ming-Ming Cheng, Yao Zhao, Shuicheng Yan.<br>National University of Singapore, CMU, Naikai University, Beijing Jiaotong University</p>
+<ul>
+<li><strong>Motivation</strong><ul>
+<li>Classification networks are only responsive to small and sparse discriminative regions, which deviates from the requirement of the segmentation task. To mitigate this gap, we propose a new adversarial erasing approach for localizing and expanding object region progressively.</li>
 </ul>
 </li>
-<li>Create soft link</li>
+<li><strong>Idea</strong><ul>
+<li>Starting with a single small object region, our proposed approach drives the classification network to sequentially discover new and complemant object regions by erasing the current mined regions in an adversarial manner.</li>
+<li>AE approach<ul>
+<li>efficiently adapt an image classification network to continuously mining and expanding target object regions. It eventually produce contiguous object segmentation masks that are usable for training segmentation models.</li>
+<li><img src="ObjectRegionMining-AE.png" alt="Object Region Mining-AE"></li>
 </ul>
-          <!--noindex-->
-          
-            <div class="post-button text-center">
-              <a class="btn" href="/2019/05/12/test-site/#more" rel="contents">
-                阅读全文 &raquo;
+</li>
+<li>Online PSL method<ul>
+<li>to utilize image-level classification confidences to reduce noise within the supervision mask and achieve better training of the segmentation network, collaborating with AE.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Remaining Issue</strong><ul>
+<li>只固定擦除三次，因为作者做实验说第四次擦除后网络训练收敛后的loss值会有较大的提升，原因在于大部分图片中的物体区域都已经被擦除，可能会引入背景区域。</li>
+</ul>
+</li>
+</ul>
+</blockquote>
+<h4 id="Adversarial-Complementary-Learning-for-Weakly-Supervised-Object-Localization-ACoL-CVPR2018"><a href="#Adversarial-Complementary-Learning-for-Weakly-Supervised-Object-Localization-ACoL-CVPR2018" class="headerlink" title="Adversarial Complementary Learning for Weakly Supervised Object Localization. ACoL CVPR2018"></a>Adversarial Complementary Learning for Weakly Supervised Object Localization. <em>ACoL</em> <em>CVPR2018</em></h4><blockquote>
+<p>Xiaolin Zhang, Yunchao Wei et al.</p>
+<ul>
+<li><strong>Issue</strong><ul>
+<li>Other weakly supervised methods of object localization are inclined to identify patterns from the most discriminative parts for recognition.<ol>
+<li>Over-relying on category-wise discriminative parts for recognition.</li>
+<li>Failing to localize integral regions of the target objects densely within an image.</li>
+</ol>
+</li>
+</ul>
+</li>
+<li><strong>Idea</strong><ul>
+<li>To find the complementary object regions by <strong>two</strong> adversary classifier, motivated by AE(Wei et al.)</li>
+<li>Two classifiers are used, one for identifying the most discriminative regions and guide the erasing operation on the intermediate feature map, and the other one for discovering new and complementary object-related region using the erased features.</li>
+<li><img src="ACoL.png" alt="ACoL Arch"></li>
+</ul>
+</li>
+<li><strong>Result</strong><ul>
+<li><img src="ACoL-results.png" alt="ACoL Result"></li>
+</ul>
+</li>
+</ul>
+</blockquote>
+
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2019/05/12/test-site/" rel="next" title="test_site">
+                <i class="fa fa-chevron-left"></i> test_site
               </a>
-            </div>
-          
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-      
-    
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/05/12/hello-world/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="XIAO">
-      <meta itemprop="description" content="赐我理由再披甲上阵">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="BLOG">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/2019/05/12/hello-world/" class="post-title-link" itemprop="url">Hello World</a>
-              
             
-          </h1>
-        
+          </div>
 
-        <div class="post-meta">
-          <span class="post-time">
+          <span class="post-nav-divider"></span>
 
+          <div class="post-nav-prev post-nav-item">
             
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-
-              
-                
-              
-
-              <time title="创建时间：2019-05-12 13:05:18" itemprop="dateCreated datePublished" datetime="2019-05-12T13:05:18+08:00">2019-05-12</time>
-            
-
-            
-          </span>
-
-          
-
-          
-            
-            
-          
-
-          
-          
-
-          
-
-          
-            <div class="post-symbolscount">
-              
-
-              
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-file-word-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">本文字数：</span>
-                
-                <span title="本文字数">430</span>
-              
-
-              
-
-              
-            </div>
-          
-
-          
-
+          </div>
         </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
       
 
       
-        
-          
-            <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
-          
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-      
-    
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </div>
@@ -855,14 +548,15 @@
   </article>
 
 
-    
-  </section>
-
-  
+  </div>
 
 
           </div>
           
+
+  
+
+
 
         </div>
         
@@ -882,8 +576,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <div class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <div class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -957,6 +660,23 @@
         </div>
       </div>
 
+      
+      <!--noindex-->
+        <div class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+            
+            
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#Object-Region-Mining-with-Adversarial-Erasing-A-Simple-Classification-to-Semantic-Segmentation-Approach-CVPR2017-Oral"><span class="nav-number">1.</span> <span class="nav-text">Object Region Mining with Adversarial Erasing: A Simple Classification to Semantic Segmentation Approach. CVPR2017 Oral</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Adversarial-Complementary-Learning-for-Weakly-Supervised-Object-Localization-ACoL-CVPR2018"><span class="nav-number">2.</span> <span class="nav-text">Adversarial Complementary Learning for Weakly Supervised Object Localization. ACoL CVPR2018</span></a></li></ol></div>
+            
+
+          </div>
+        </div>
+      <!--/noindex-->
       
 
       
@@ -1117,6 +837,10 @@
 
 
   
+  <script src="/js/scrollspy.js?v=7.1.1"></script>
+<script src="/js/post-details.js?v=7.1.1"></script>
+
+
 
   
 
@@ -1132,6 +856,8 @@
 
   
 
+
+  
 
 
   
